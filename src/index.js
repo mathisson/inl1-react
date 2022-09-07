@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
-import Form from "./routes/Form";
+import FormPage from "./routes/FormPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,7 +12,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="home" element={<Home />} />
-      <Route path="form" element={<Form />} />
+      <Route path="form" element={<FormPage />} />
     </Routes>
   </BrowserRouter>
 );
