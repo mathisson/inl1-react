@@ -8,9 +8,10 @@ const Navbar = () => {
         className="Navbar"
         style={{
           paddingBottom: "1rem",
-        } }
+        }}
       >
-        <Link to="/home">Home</Link> | <Link to="/form">Form</Link>
+        <Link to="/">root</Link> | <Link to="/home">Home</Link> |{" "}
+        <Link to="/form">Form</Link>
       </nav>
     </div>
   );
