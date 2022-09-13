@@ -11,7 +11,7 @@ const Navbar = () => {
         }}
       >
         <Link to="/">root</Link> | 
-        <Link to="/home">Home</Link> |{" "}
+        <Link to="/counter">Counter</Link> |{" "}
         <Link to="/form">Form</Link>
       </nav>
     </div>
