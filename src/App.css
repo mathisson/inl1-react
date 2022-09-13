@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .Navbar{
   text-align: center;
 }
