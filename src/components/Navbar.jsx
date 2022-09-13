@@ -10,7 +10,8 @@ const Navbar = () => {
           paddingBottom: "1rem",
         }}
       >
-        <Link to="/">root</Link> | <Link to="/home">Home</Link> |{" "}
+        <Link to="/">root</Link> | 
+        <Link to="/home">Home</Link> |{" "}
         <Link to="/form">Form</Link>
       </nav>
     </div>

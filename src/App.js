@@ -1,4 +1,4 @@
-import { Navbar, Welcome } from "./components/";
+import { Navbar, Welcome, ApiTable } from "./components/";
 import "./App.css";
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <Navbar />
         <Welcome/>
+        <ApiTable/>
     </div>
   );
 }
